@@ -17,7 +17,9 @@ class AppState extends State<App>{
 
     return MaterialApp(
       
-      home: PlaceDetailsScreen(),
+      home: Scaffold(
+        body:PlaceDetailsScreen(), 
+        ),
     );
   }
 

@@ -3,7 +3,8 @@ import 'package:flutter/rendering.dart';
 
 Widget iWorkHours(){
       return SingleChildScrollView(
-          child: Card(
+          child: Container(
+            color: Colors.grey[100],
             margin: EdgeInsets.all(0.0),
             child: ExpansionTile(
                 title: Text('WorkHours', style: new TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold, fontStyle: FontStyle.italic),),

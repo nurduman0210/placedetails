@@ -7,12 +7,13 @@ Widget socialNetworks() {
     padding: const EdgeInsets.all(8.0),
     alignment: Alignment.center,
     child: Row(
+      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       children: <Widget>[
         Icon(Icons.add_circle),
         Icon(Icons.face),
         const Icon(Icons.add_location),
         const Icon(Icons.surround_sound),
-        const Icon(Icons.nature_people),
+        const Icon(Icons.nature_people), 
 
       ],
     ),

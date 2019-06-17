@@ -32,10 +32,12 @@ class _GeneralInfoState extends State<GeneralInfo> {
 
   @override
   Widget build(BuildContext context) {
-    return new Card(
+    return new Container(
+      color: Colors.grey[100],
       child: secondHalf.isEmpty
           ? new Text(firstHalf)
-          : new Card(
+          : new Container(
+            color: Colors.grey[100],
             margin: EdgeInsets.all(0.0),
             child: Column(
               children: <Widget>[
